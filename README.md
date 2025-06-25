@@ -1,66 +1,67 @@
-📊 Latihan Pengolahan Data: Education in Danger (2020–2025)
-Repository ini berisi latihan eksplorasi dan analisis data menggunakan dataset "Education in Danger: Incident Data (2020–2025)" yang bersumber dari Kaggle. Dataset ini mendokumentasikan insiden kekerasan, ancaman, dan gangguan yang memengaruhi sistem pendidikan secara global selama periode Januari 2020 hingga Mei 2025.
+📊 Data Processing Practice: Education in Danger (2020–2025)
+This repository contains data exploration and analysis practice using the "Education in Danger: Incident Data (2020–2025)" dataset from Kaggle. The dataset documents verified incidents of violence, threats, and disruptions affecting education systems globally from January 2020 to May 2025.
 
-🔗 Link Dataset Kaggle: Education in Danger Incident Data (2020–2025)
-📒 Notebook Colab: Google Colab Notebook
+🔗 Kaggle Dataset: https://www.kaggle.com/datasets/mohamedramadan2040/education-in-danger-incident-data-2020-to2025/data
+📒 Google Colab Notebook: View Notebook
 
-🧾 Tentang Dataset
-Dataset ini menyajikan data insiden yang telah diverifikasi, mencakup:
+🧾 About the Dataset
+This dataset provides structured, incident-level records of verified attacks on:
 
-Serangan terhadap siswa, guru, dan infrastruktur pendidikan
+Students and teachers
 
-Ancaman terhadap proses belajar-mengajar
+Schools and educational infrastructure
 
-Gangguan akibat konflik bersenjata atau krisis kemanusiaan
+Educational activities disrupted by conflict or crisis
 
-Disusun dalam format insiden per baris, data ini memungkinkan pemantauan global dan analisis akademik terkait keamanan pendidikan.
+Each row represents a distinct incident, supporting humanitarian response, policy development, and academic research.
 
-🔍 Fitur Kolom Utama
-Kolom	Deskripsi
-Date	Tanggal kejadian
-Country	Negara lokasi insiden
-Admin 1	Wilayah administratif (mis. provinsi/kabupaten)
-Latitude, Longitude	Koordinat geografis lokasi insiden
-Location of event	Jenis lokasi yang terdampak (sekolah, universitas, transportasi, dll.)
-Reported Perpetrator	Pihak yang dilaporkan sebagai pelaku (militer, NSA, pemerintah, dll.)
-Students Attacked in School	Jumlah siswa yang diserang di lokasi
-Students Killed, Injured, etc.	Dampak spesifik terhadap siswa
-Educators Arrested, Kidnapped	Dampak spesifik terhadap guru/staf
-Sexual Violence Affecting Children	Indikator kekerasan seksual (0 atau 1)
-SiND Event ID	ID unik untuk setiap insiden
+🔍 Key Columns
+Column	Description
+Date	Date of the reported incident
+Country	Country where the incident occurred
+Admin 1	Subnational region (e.g., province, state)
+Latitude, Longitude	Geographic coordinates (if available)
+Location of event	Type of site attacked (e.g., school, university, transport, etc.)
+Reported Perpetrator	Responsible party (e.g., military, NSA, government)
+Students Attacked in School	Number of students harmed at the location
+Students Killed, Injured, etc.	Specific impacts on students
+Educators Arrested, Kidnapped	Specific impacts on teachers and school staff
+Sexual Violence Affecting Children	Binary indicator for school-age children (0 or 1)
+SiND Event ID	Unique identifier for each incident
 
-🧠 Studi Kasus & Kegunaan
-Beberapa contoh penggunaan dataset:
+🧠 Use Cases
+This dataset supports a range of analytical and applied tasks, such as:
 
-Visualisasi serangan terhadap pendidikan berdasarkan lokasi atau waktu
+Visualizing and mapping attacks on education across regions and years
 
-Analisis spasial dan temporal untuk mendeteksi pola kekerasan
+Analyzing spatial and temporal trends in educational threats
 
-Mendukung pengambilan kebijakan berbasis data di sektor kemanusiaan
+Informing data-driven humanitarian and policy responses
 
-Pelatihan model machine learning untuk prediksi wilayah risiko tinggi
+Training machine learning models to forecast high-risk educational zones
 
-⚠️ Catatan Penting
-Beberapa data mungkin tidak lengkap karena sensor atau alasan keamanan
+⚠️ Important Notes
+Some values may be missing due to censorship or security reasons
 
-Tingkat presisi lokasi dapat berbeda-beda (distrik vs provinsi)
+Geographic precision varies (district-level vs. province-level)
 
-Dataset mencerminkan dampak nyata dari konflik global — gunakan dengan tanggung jawab
+This dataset reflects real-world conflict impacts — use responsibly and ethically
 
-🌐 Cakupan dan Lisensi
-Cakupan Global: Lebih dari 50 negara tercakup
+🌐 Coverage & Licensing
+Global Coverage: 50+ countries included
 
-Sumber: GCPEA (Global Coalition to Protect Education from Attack)
+Source: Aligned with GCPEA and Education Under Attack initiative
 
-Lisensi: Periksa ketentuan lisensi pada halaman Kaggle untuk penggunaan data
+License: Refer to the Kaggle dataset page for usage rights and terms
 
-🚀 Tujuan Latihan
-Repositori ini bertujuan sebagai media pembelajaran dalam:
+🚀 Project Goals
+This repository aims to support learning in:
 
-Pengolahan dan pembersihan data
+Data cleaning and preprocessing
 
-Analisis data eksploratif (EDA)
+Exploratory data analysis (EDA)
 
-Visualisasi data geografis dan temporal
+Geographic and temporal data visualization
 
-Penerapan prinsip etika dalam analisis data kemanusiaan
+Applying ethical considerations to humanitarian data analysis
+
